@@ -1,22 +1,35 @@
-import './App.css';
 import {
   BrowserRouter as Router,
   Routes,
   Route
 } from "react-router-dom";
-import {Home,Doc} from './page/import';
+import './App.css';
+
+import {Footer, Nav, SideNav }from './component/import';
+import { useData } from './context/context';
+import {Doc,Home} from './page/import';
+
 
 function App() {
+  const {sideNav}=useData()
   return (
     <>
-      <Router>
+    <Router>
+    {
+      sideNav?<SideNav/>:""
+    }
+      {/* <Nav/> */}
+    <Nav />
         <Routes>
-          <Route path='/' exact element={<Home/>}></Route>
-          <Route path='/doc' exact element={<Doc/>}></Route>
+        <Route path='/' exact element={<Home/>}></Route>
+        <Route path='/doc/*' element={<Doc/>}></Route>
         </Routes>
-      </Router>
+    <Footer/>
+    </Router>
+
     </>
   );
 }
 
 export default App;
+

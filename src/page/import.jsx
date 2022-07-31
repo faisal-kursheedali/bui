@@ -1,4 +1,6 @@
-import Doc from "./doc/doc";
+
+import Doc from "./doc";
 import Home from "./home";
 
-export {Doc,Home}
+export{Home,Doc}
+
