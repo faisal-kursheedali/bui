@@ -60,7 +60,7 @@ const Footer = () => {
             </div>
                 <ul className="footer-list">
                 <li className="footer-list-item">
-                        <a href="#" className='bui-link-nostyle footer-list-item-link'>BUI</a>
+                        <a href="https://bui-site.netlify.app/" className='bui-link-nostyle footer-list-item-link'>BUI</a>
                     </li>
                 </ul>
         </div>

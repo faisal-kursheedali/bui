@@ -24,7 +24,7 @@ const Sample = () => {
       // "sample2",
       // "sample2",
     ])
-  },[])
+  })
   return (
     <div>
       <h1 id='sample1'> Sample1</h1>

@@ -9,7 +9,7 @@ import { useData } from './context/context';
 import {Doc,Home} from './page/import';
 
 function App() {
-  const {sideNav,setSideNav}=useData()
+  const {sideNav}=useData()
   return (
     <>
     <Router>
@@ -30,7 +30,3 @@ function App() {
 
 export default App;
 
-{/* <Routes>
-      <Route path='/doc-nav' element={Nav}></Route>
-  </Routes>
-<Doc state={{sidenav,setSidenav}}/>  */}
