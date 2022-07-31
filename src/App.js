@@ -4,9 +4,11 @@ import {
   Route
 } from "react-router-dom";
 import './App.css';
+
 import {Footer, Nav, SideNav }from './component/import';
 import { useData } from './context/context';
 import {Doc,Home} from './page/import';
+
 
 function App() {
   const {sideNav}=useData()
@@ -24,6 +26,7 @@ function App() {
         </Routes>
     <Footer/>
     </Router>
+
     </>
   );
 }
