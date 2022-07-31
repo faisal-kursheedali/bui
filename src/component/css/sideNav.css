@@ -1,0 +1,8 @@
+.doc-sidenav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color:#d3bdfb;
+    z-index: 3;
+    /* display: none; */
+}

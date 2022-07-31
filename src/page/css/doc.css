@@ -1,0 +1,66 @@
+.doc-container{
+    display: flex;
+    /* max-height: 100vh; */
+    justify-content: flex-start;
+    /* overflow-y: hidden; */
+}
+.doc-right-sidenav{
+    width: 250px;
+    height: fit-content;
+    margin-left: auto;
+    font-size: 1rem;
+    overflow-y: scroll;
+    background-color: #d3bdfb;
+    position: sticky;
+    top: 0px;
+}
+
+
+.doc-right-sidenav-list{
+    padding-left: 0px;
+    list-style: none;
+     max-height: 50vh;      
+    margin: 0px;
+}
+ .doc-right-sidenav::-webkit-scrollbar{
+    width: 5px;
+    border-radius: .2rem;                 
+}
+.doc-right-sidenav::-webkit-scrollbar-thumb{
+    border-radius: .2rem;
+    background-color: blue;
+    width: 5px;
+} 
+.doc-right-sidenav-list-item{
+    margin-top: 5px;
+    cursor: pointer;
+    padding: 12px 16px 12px 14px;
+}
+.doc-right-sidenav-list-item:hover{
+    text-decoration: 5px underline;
+}
+.doc-main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* overflow-y: scroll; */
+
+    padding: 12px 18px 12px 16px;                         
+}
+.doc-main::-webkit-scrollbar{
+    width: 5px;
+    border-radius: .2rem; 
+}
+.doc-main::-webkit-scrollbar-thumb{
+    border-radius: .2rem;
+    width: 5px;
+    background-color: aqua;
+}
+
+
+@media (max-width:450px) {
+    .doc-right-sidenav{
+        display: none;
+    }
+    
+}
