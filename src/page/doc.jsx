@@ -1,7 +1,8 @@
 import React from 'react'
 
 import "./css/doc.css"
-import {Sample,Intro} from '../component/import';
+import {Sample} from '../component/import';
+import {Intro,Installation, Avatar} from "../doc/import"
 import { Route, Routes } from 'react-router-dom';
 import { useData } from '../context/context';
 
@@ -15,6 +16,8 @@ const Doc = () => {
                 
                 <Routes>
                 <Route path='intro' element={<Intro/>}></Route>
+                <Route path='installation' element={<Installation/>}></Route>
+                <Route path='avatar' element={<Avatar/>}></Route>
                 <Route path='sample' element={<Sample/>}></Route>
                 </Routes>
             </div>

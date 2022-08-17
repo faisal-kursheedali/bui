@@ -1,0 +1,12 @@
+.example-modal{
+    width: fit-content;
+}
+.example-modal-code-container{
+    padding: 1rem;
+    background-color: aquamarine;
+}
+.example-modal-code{
+    max-width: 600px;
+    /* min-width: 250px; */
+    /* margin: auto; */
+}

@@ -1,0 +1,81 @@
+.install{
+   /* background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%); */
+padding: 2rem;
+background-image: linear-gradient(60deg, #64b3f4 0%, #c2e59c 100%);
+background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);
+background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+background-image: linear-gradient(120deg, #84fab0 100%, #8fd3f4 0%);
+background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
+/* background-image: linear-gradient(60deg, #64b3f4 0%, #c2e59c 100%);  */
+/* background-image: linear-gradient(-225deg, #2CD8D5 0%, #C5C1FF 56%, #FFBAC3 100%); */
+}
+.install-container{
+    display: flex;
+    align-items: center;
+    /* padding: 2rem; */
+    padding-bottom: 0px;
+}
+.install-left{
+    width: 50%;
+    min-width: 250px;
+}
+.install-right{
+    width: 50%;
+    margin-left: .5rem;
+    /* min-width: 250px; */
+}
+.install-buttom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.install-snippet{
+    width: 70%;
+    min-width: 250px;
+    margin: auto;
+}
+.install-right-head{
+    font-weight: 800;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+}
+.install-right-sub-txt{
+    margin-top: .1rem;
+}
+.install-right-sub-main-txt{
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-top: .2rem;
+}
+.install-right-sub-example-code{
+    margin-top:1rem;
+    text-decoration: underline;
+    color: blue;
+}
+.install-right-sub-button{
+    padding: .5rem 1.2rem;
+    margin-left: 0px;
+    margin-top: 2rem;
+    color: blue;
+    border-color: blue;
+}
+.install-right-sub-button:hover{
+    border: 0px;
+}
+.install-right-txt-code{
+    color: blue;
+    border-radius: 0px;
+    padding: .2rem;
+}
+@media (max-width:768px) {
+    .install-container{
+        flex-direction: column;
+    }
+    .install-right{
+        /* align-self: start; */
+        width: 100%;
+    }
+   
+}
