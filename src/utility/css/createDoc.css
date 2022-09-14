@@ -84,6 +84,7 @@
         overflow: scroll;
     }
 }
+
 @media (max-width:930px) {
     .create-doc-container{
         display: block;
