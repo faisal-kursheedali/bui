@@ -23,15 +23,7 @@
      max-height: 50vh;      
     margin: 0px;
 }
- .doc-right-sidenav::-webkit-scrollbar{
-    width: 5px;
-    border-radius: .2rem;                 
-}
-.doc-right-sidenav::-webkit-scrollbar-thumb{
-    border-radius: .2rem;
-    background-color: blue;
-    width: 5px;
-} 
+
 .doc-right-sidenav-list-item{
     margin-top: 5px;
     cursor: pointer;
@@ -59,9 +51,3 @@
 }
 
 
-@media (max-width:800px) {
-    .doc-right-sidenav{
-        display: none;
-    }
-    
-}
