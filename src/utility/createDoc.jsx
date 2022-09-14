@@ -15,7 +15,6 @@ const CreateDoc = ({ data }) => {
     }
   }, [setIndex]);
   const output=document.querySelector("#user-try-output");
-  console.log(data);
   // const userOutPutFnc=(input)=>{
   //   const userCode=eval(input)
   //   console.log(userCode);

@@ -1,7 +1,7 @@
 import React from 'react'
 // import Datasender from './datasender.tsx'
 import {CreateDoc} from '../utility/import'
-import {AiOutlineInfoCircle,AiOutlineClose} from "react-icons/ai"
+// import {AiOutlineInfoCircle,AiOutlineClose} from "react-icons/ai"
 
 const Avatar = () =>{
 //   Datasender({

@@ -1,14 +1,7 @@
 import React from 'react'
-// import Datasender from './datasender.tsx'
 import { CreateDoc } from '../utility/import'
-// import { AiOutlineClose } from "react-icons/ai"
 
 const NavDoc = () => {
-    //   Datasender({
-
-    //   })
-
-    // })
     const data = {
         topics: ["navigation","side-nav", "note", "code", "modal", "summary"],
         userTry: true,
@@ -30,7 +23,7 @@ Get started with the responsive navbar component from Flowbite to quickly set up
                 h3: "note :",
                 p2: `Add everything inside the .bui-nav class name then add all the item inside the list ul with class name of .bui-nav-list and each item li should have  class name of .bui-nav-list-item. If the li is for logo of the company then put that specific div with .bui-nav-logo. If the item in nav has to navigate then use this class name to that link tag (<a/> or <Link/>).`,
                 hId: "note"
-            }, 
+            } 
 //             {
 //                 codeH2: "code :",
 //                 codeP2: `In this I had used React, so I used the syntax of react. If you use only HTML and CSS then use class insterd of className.`,
@@ -79,7 +72,7 @@ Get started with the responsive navbar component from Flowbite to quickly set up
                 impPointHead: "summary :",
                   impPoint:["ALWAYS USE 'bui-' IN PRIFIX IN CLASS NAME",`add everything inside the .bui-nav class name`,`add all the item inside the list ul with class name of .bui-nav-list`,`each item li should have  class name of .bui-nav-list-item`,`if the li is for logo of the company then put that specific div with .bui-nav-logo`,`if the item in nav has to navigate then use this class name to that link tag (<a/> or <Link/>)`,`every thing come inside .bui-sidenav`,`in bui-sidenav-header element we put the cmpny name ect`,`in .bui-sidenav-header we can have 2 elements 1, bui-sidenav-header-btn - for button on the header of side nav
                   2, bui-sidenav-header-logo- for cmpny logo`,`inside the .bui-sidenav-list(ul) element all the item are kept`,`each item has class name of bui-sidenav-list-item`,`if the item has any icon then keep them inside the element with class name bui-sidenav-list-item-icn`,`for hr in sidenav with some additional style use hr tag with class name of bui-sidenav-list-hr`]
-            },
+            }
         ],
     }
     return (

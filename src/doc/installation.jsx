@@ -10,7 +10,7 @@ const Installation = () => {
     const navigate=useNavigate();
     useEffect(()=>{
         setIndex(prev=>prev=[])
-    },[])
+    },[setIndex])
     let code=`<>
     This is code
     </>`
