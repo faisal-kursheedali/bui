@@ -13,7 +13,7 @@ const CreateDoc = ({ data }) => {
       
       setIndex(prev=>prev=[...prev,"practice"]);
     }
-  }, [setIndex,index,data]);
+  }, [setIndex]);
   const output=document.querySelector("#user-try-output");
   // const userOutPutFnc=(input)=>{
   //   const userCode=eval(input)

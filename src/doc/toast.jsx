@@ -39,8 +39,8 @@ const data={
         <AiOutlineClose className="bui-toast-close" onClick={() => setToastIsShown((bool) => bool = false)} />
         <div className="bui-toast-link">
 
-          <a href="#" className="bui-toast-link-sec">Read more</a>
-          <a href="#" className="bui-toast-link-primary">Buy now</a>
+          <a href="/" className="bui-toast-link-sec">Read more</a>
+          <a href="/" className="bui-toast-link-primary">Buy now</a>
         </div>
       </div>
     </div>
@@ -61,8 +61,8 @@ const data={
           <AiOutlineClose className="bui-toast-close" onClick={()=>setClick(prev=>prev=false)} />
           <div className="bui-toast-link">
   
-            <a href="#" className="bui-toast-link-sec">Read more</a>
-            <a href="#" className="bui-toast-link-primary">Buy now</a>
+            <a href="/" className="bui-toast-link-sec">Read more</a>
+            <a href="/" className="bui-toast-link-primary">Buy now</a>
           </div>
         </div>
       </div>):""}
@@ -80,8 +80,8 @@ const data={
         <AiOutlineClose className="bui-toast-close" onClick={() => setToastIsShown((bool) => bool = false)} />
         <div className="bui-toast-link">
 
-          <a href="#" className="bui-toast-link-sec">Read more</a>
-          <a href="#" className="bui-toast-link-primary">Buy now</a>
+          <a href="/" className="bui-toast-link-sec">Read more</a>
+          <a href="/" className="bui-toast-link-primary">Buy now</a>
         </div>
       </div>
     </div>

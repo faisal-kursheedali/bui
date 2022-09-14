@@ -35,7 +35,7 @@ const Button = () => {
                 <button className='bui-btn-outline bui-btn-outline-cta3 bui-btn-outline-cta3 bui-btn-rnd bui-btn-lg bui-btn-icn-container'>click <div className="bui-btn-icn"><FaFilter/></div> </button>
               
         
-                <a href="#" className="bui-link-underline  bui-link-cta1 bui-link-sec">click me</a>
+                <a href="/" className="bui-link-underline  bui-link-cta1 bui-link-sec">click me</a>
         `,
                 hId: "code"
             }, {
@@ -45,7 +45,7 @@ const Button = () => {
                     <button className='bui-btn-outline bui-btn-outline-cta3 bui-btn-outline-cta3 bui-btn-rnd bui-btn-lg bui-btn-icn-container'>click <div className="bui-btn-icn"><FaFilter/></div> </button>
                   
             
-                    <a href="#" className="bui-link-underline  bui-link-cta1 bui-link-sec">click me</a>
+                    <a href="/" className="bui-link-underline  bui-link-cta1 bui-link-sec">click me</a>
             
                     </>
                     )
@@ -54,7 +54,7 @@ const Button = () => {
                 <button className='bui-btn-outline bui-btn-outline-cta3 bui-btn-outline-cta3 bui-btn-rnd bui-btn-lg bui-btn-icn-container'>click <div className="bui-btn-icn"><FaFilter/></div> </button>
               
         
-                <a href="#" className="bui-link-underline  bui-link-cta1 bui-link-sec">click me</a>
+                <a href="/" className="bui-link-underline  bui-link-cta1 bui-link-sec">click me</a>
         
 `
             }, {
