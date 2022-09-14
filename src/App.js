@@ -11,7 +11,7 @@ import {Doc,Home} from './page/import';
 
 
 function App() {
-  const {sideNav}=useData()
+  const {sideNav,setSideNav}=useData()
   return (
     <>
     <Router>
@@ -20,13 +20,14 @@ function App() {
     }
       {/* <Nav/> */}
     <Nav />
+      <div onClick={()=>setSideNav(false)}>
         <Routes>
         <Route path='/' exact element={<Home/>}></Route>
         <Route path='/doc/*' element={<Doc/>}></Route>
         </Routes>
     <Footer/>
+    </div>
     </Router>
-
     </>
   );
 }
