@@ -1,19 +1,19 @@
-import React, { useEffect,useState } from 'react'
+import React, {useEffect,useState} from 'react'
 import "./css/createDoc.css"
 import { TxtInDoc } from './import';
 import { useData } from "../context/context";
 
 
 const CreateDoc = ({ data }) => {
-  const { index,setIndex } = useData();
+  const { index,setIndex } = useData([]);
   const[userInput,setUserInput]=useState("");
   useEffect(() => {
-    if (index.length>0) {
+    setIndex(prev => prev = data.topics);
+    if (index.length>1) {
       
-      setIndex(prev => prev = data.topics);
       setIndex(prev=>prev=[...prev,"practice"]);
     }
-  }, [setIndex]);
+  }, [setIndex,index,data]);
   const output=document.querySelector("#user-try-output");
   // const userOutPutFnc=(input)=>{
   //   const userCode=eval(input)

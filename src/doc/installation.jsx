@@ -11,9 +11,9 @@ const Installation = () => {
     useEffect(()=>{
         setIndex(prev=>prev=[])
     },[setIndex])
-    let code=`<>
-    This is code
-    </>`
+    // let code=`<>
+    // This is code
+    // </>`
   return (
     <>
    <div className="install">

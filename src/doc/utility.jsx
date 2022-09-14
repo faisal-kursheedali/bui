@@ -6,9 +6,9 @@ const TxtUtility = () => {
     <>
     
     <div className="bui-box-center" style={{padding:"1rem"}}>
-  <div className="bui-head2 bui-pad-1 bui-txt-underline"> heading texts :</div>
+  <div className="bui-head2 bui-pad-1 " style={{backgroundColor:'violet',padding:"5rem 2rem",borderRadius:".5rem"}}> Text utility </div>
   <div className="bui-head4 bui-pad-0-5">type of font size :</div>
-  <ul className="bui-list-sqr">
+  <ul style={{backgroundColor:"blueviolet",color:"white",paddingTop:"2rem",paddingBottom:"2rem"}} className="bui-list-sqr">
     <li className="bui-head1">Type one</li>
     <li className="bui-head2">Type two</li>
     <li className="bui-head3">Type three</li>
@@ -25,7 +25,7 @@ const TxtUtility = () => {
   <div className="bui-head4 bui-pad-1 bui-txt-underline"> How to use :</div>
   <div className="bui-p2 bui-pad-0-5 bui-txt-bold"> things to note :</div>
   <div className="bui-p2 bui-pad-0-5">you need to add this names in your tag, to get that properties </div>
-  <ul className="bui-list-sqr">
+  <ul style={{backgroundColor:"blueviolet",color:"white",paddingTop:"2rem",paddingBottom:"2rem"}} className="bui-list-sqr">
     <li className="bui-pad-0-5">for <span className="bui-highlighted"> largest </span> font size use - <span className="bui-txt-code">class="bui-head1"</span> </li>
     <li className="bui-pad-0-5">for <span className="bui-highlighted"> large </span> font size use - <span className="bui-txt-code">class="bui-head2"</span> </li>
     <li className="bui-pad-0-5">for <span className="bui-highlighted"> normal </span> font size use - <span className="bui-txt-code">class="bui-head3"</span> </li>
@@ -42,7 +42,7 @@ const TxtUtility = () => {
   <hr />
   <div className="bui-head3 bui-txt-underline"> normal texts :</div>
   <div className="bui-head4">type of font size :</div>
-  <ul className="bui-list-sqr">
+  <ul style={{backgroundColor:"blueviolet",color:"white",paddingTop:"2rem",paddingBottom:"2rem"}} className="bui-list-sqr">
     <li className="bui-p1">Type one</li>
     <li className="bui-p2">Type two</li>
     <li className="bui-p3">Type three</li>
@@ -59,7 +59,7 @@ const TxtUtility = () => {
   <div className="bui-head4 bui-pad-1 bui-txt-underline"> How to use :</div>
   <div className="bui-p2 bui-pad-0-5 bui-txt-bold"> things to note :</div>
   <div className="bui-p2 bui-pad-0-5">you need to add this names in your tag, to get that properties </div>
-  <ul className="bui-list-sqr">
+  <ul style={{backgroundColor:"blueviolet",color:"white",paddingTop:"2rem",paddingBottom:"2rem"}} className="bui-list-sqr">
     <li className="bui-pad-0-5">for <span className="bui-highlighted"> largest </span> font size use - <span className="bui-txt-code">class="bui-p1"</span> </li>
     <li className="bui-pad-0-5">for <span className="bui-highlighted"> large </span> font size use - <span className="bui-txt-code">class="bui-p2"</span> </li>
     <li className="bui-pad-0-5">for <span className="bui-highlighted"> normal </span> font size use - <span className="bui-txt-code">class="bui-p3"</span> </li>
@@ -87,7 +87,7 @@ const TxtUtility = () => {
   <div className="bui-head4 bui-pad-1 bui-txt-underline"> How to use :</div>
   <div className="bui-p2 bui-pad-0-5 bui-txt-bold"> things to note :</div>
   <div className="bui-p2 bui-pad-0-5">you need to add this names in your tag, to get that properties </div>
-  <ul className="bui-list-sqr">
+  <ul style={{backgroundColor:"blueviolet",color:"white",paddingTop:"2rem",paddingBottom:"2rem"}} className="bui-list-sqr">
     <li className="bui-pad-0-5">for <span className="bui-highlighted"> CTA colour 1 </span>txt use - <span className="bui-txt-code">class="bui-cta1"</span> </li>
     <li className="bui-pad-0-5">for <span className="bui-highlighted"> CTA colour 2 </span>txt use - <span className="bui-txt-code">class="bui-cta2"</span> </li>
     <li className="bui-pad-0-5">for <span className="bui-highlighted"> CTA colour 3 </span>txt use - <span className="bui-txt-code">class="bui-cta3"</span> </li>
@@ -113,7 +113,7 @@ const TxtUtility = () => {
   </xmp> */}
   <hr />
   <div className="bui-head3 bui-txt-underline"> types of texts :</div>
-  <ul className="bui-p2">
+  <ul style={{backgroundColor:"blueviolet",color:"white",paddingTop:"2rem",paddingBottom:"2rem"}} className="bui-p2">
     <li className="bui-txt-bold">bold</li>
     <li className="bui-txt-del">deleted</li>
     <li className="bui-txt-underline">underlined</li>
@@ -125,7 +125,7 @@ const TxtUtility = () => {
   <div className="bui-head4 bui-pad-1 bui-txt-underline"> How to use :</div>
   <div className="bui-p2 bui-pad-0-5 bui-txt-bold"> things to note :</div>
   <div className="bui-p2 bui-pad-0-5">you need to add this names in your tag, to get that properties </div>
-  <ul className="bui-list-sqr">
+  <ul style={{backgroundColor:"blueviolet",color:"white",paddingTop:"2rem",paddingBottom:"2rem"}} className="bui-list-sqr">
     <li className="bui-pad-0-5">for <span className="bui-highlighted">bui-Highlighted CTA colour 1 </span>txt use - <span className="bui-txt-code marg-0-5">class="bui-highlighted-cta1"</span> </li>
     <li className="bui-pad-0-5">for <span className="bui-highlighted">bui-Highlighted CTA colour 2 </span>txt use - <span className="bui-txt-code marg-0-5">class="bui-highlighted-cta2"</span> </li>
     <li className="bui-pad-0-5">for <span className="bui-highlighted"> bui-Highlighted CTA colour 3 </span>txt use - <span className="bui-txt-code marg-0-5">class="bui-highlighted-cta3"</span> </li>
@@ -148,13 +148,13 @@ const TxtUtility = () => {
   <hr />
   <div className="bui-head3 bui-txt-underline">Texts alignment :</div>
   <div className="bui-p2">Text alignments are used to align the text to right/lrft/center of container.</div>
-  <div className="bui-p2 bui-txt-left bui-darkgray-bg bui-pad-1">Left text</div>
-  <div className="bui-p2 bui-txt-center bui-pad-1 litegray-bg">Center text</div>
-  <div className="bui-p2 bui-txt-right bui-darkgray-bg bui-pad-1">Right text</div>
+  <div className="bui-p2 bui-txt-left bui-litegray-bg bui-pad-1" style={{backgroundColor:"lightgreen"}}>Left text</div>
+  <div className="bui-p2 bui-txt-center bui-pad-1 bui-litegray-bg"  style={{backgroundColor:"limegreen"}}>Center text</div>
+  <div className="bui-p2 bui-txt-right bui-darkgray-bg bui-pad-1" style={{backgroundColor:"green",color:'white'}}>Right text</div>
   <div className="bui-head4 bui-pad-1 bui-txt-underline"> How to use :</div>
   <div className="bui-p2 bui-pad-0-5 bui-txt-bold"> things to note :</div>
   <div className="bui-p2 bui-pad-0-5">you need to add this names in your tag, to get that properties </div>
-  <ul className="bui-list-sqr">
+  <ul style={{backgroundColor:"blueviolet",color:"white",paddingTop:"2rem",paddingBottom:"2rem"}} className="bui-list-sqr">
     <li className="bui-pad-0-5">for <span className="bui-highlighted">Centered</span>txt use - <span className="bui-txt-code marg-0-5">class="bui-txt-center"</span> </li>
     <li className="bui-pad-0-5">for <span className="bui-highlighted">Right aligned </span>txt use - <span className="bui-txt-code marg-0-5">class="bui-txt-right"</span> </li>
     <li className="bui-pad-0-5">for <span className="bui-highlighted"> Left aligned </span>txt use - <span className="bui-txt-code marg-0-5">class="bui-txt-left"</span> </li>

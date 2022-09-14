@@ -9,7 +9,7 @@ const Intro = () => {
     const navigate=useNavigate();
     useEffect(()=>{
         setIndex(prev=>prev=[]);
-    },[])
+    },[setIndex])
   return (
     <>
     <div className="intro-container">
