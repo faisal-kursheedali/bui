@@ -1,6 +1,6 @@
 import React from 'react'
 import "./css/nav.css"
-import { BsThreeDotsVertical } from "react-icons/bs"
+// import { BsThreeDotsVertical } from "react-icons/bs"
 import { AiOutlineMenu } from "react-icons/ai"
 import { Link } from "react-router-dom"
 import { useData } from '../context/context'
