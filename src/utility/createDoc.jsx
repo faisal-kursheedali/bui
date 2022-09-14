@@ -9,7 +9,7 @@ import { TxtInDoc } from './import';
 const CreateDoc = ({ data }) => {
   // const { setIndex } = useData();
   const[userInput,setUserInput]=useState("");
-  console.log(data.topics);
+  // console.log(data.topics);
   // const topic=data.topics
   
 //  if (data.topics.length>0) {
@@ -53,7 +53,7 @@ const CreateDoc = ({ data }) => {
           
         </div>
         <button className="bui-btn-fancy doc-user-try-run-btn" onClick={()=>{
-          console.log(userInput);
+          // console.log(userInput);
           output.innerHTML=userInput;
         }}>
           RUN

@@ -14,7 +14,7 @@ const data={
     {
       h1:"Image",
       smallH1:"About :",
-      p1:`Responsive images built with Tailwind CSS. Use classes for images to make your pictures responsive and more beautiful.`,
+      p1:`Responsive images built with BUI CSS. Use classes for images to make your pictures responsive and more beautiful.`,
       hId:"image"
     },{
       h3:"note :",

@@ -17,7 +17,7 @@ const data={
     {
       h1:"Modal",
       smallH1:"About :",
-      p1:`Responsive modal built with Tailwind CSS. Use Modal to add dialogs to your site for lightboxes, user notifications, or completely custom content.`,
+      p1:`Responsive modal built with BUI CSS. Use Modal to add dialogs to your site for lightboxes, user notifications, or completely custom content.`,
       hId:"intro"
     },{
       h3:"note :",

@@ -17,7 +17,7 @@ const data={
       h1:"Badge",
       smallH1:"About :",
       p1:`
-      Responsive Badges built with Tailwind CSS. Badges add extra information like count or label to any content.
+      Responsive Badges built with BUI CSS. Badges add extra information like count or label to any content.
       `,
       hId:"badge"
     },{

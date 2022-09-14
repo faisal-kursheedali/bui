@@ -16,7 +16,7 @@ const Button = () => {
             {
                 h1: "Button",
                 smallH1: "About :",
-                p1: `Responsive buttons built with Tailwind CSS. Buttons provide predefined styles for multiple button types: outline, rounded, social, floating, fixed, and much more.`,
+                p1: `Responsive buttons built with BUI CSS. Buttons provide predefined styles for multiple button types: outline, rounded, social, floating, fixed, and much more.`,
                 hId: "button"
             }, {
                 h1: "Link",

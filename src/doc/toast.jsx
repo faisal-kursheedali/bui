@@ -17,7 +17,7 @@ const data={
     {
       h1:"Toast",
       smallH1:"About :",
-      p1:`Responsive Tailwind Toast built with Tailwind CSS. Toasts are a non-disruptive message in the corner of the interface. It provides quick 'at-a-glance' feedback on the outcome of an action.`,
+      p1:`Responsive BUI Toast built with BUI CSS. Toasts are a non-disruptive message in the corner of the interface. It provides quick 'at-a-glance' feedback on the outcome of an action.`,
       hId:"toast"
     },{
       h3:"note :",
