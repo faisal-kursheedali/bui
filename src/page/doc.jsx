@@ -4,11 +4,9 @@ import "./css/doc.css"
 import {Sample} from '../component/import';
 import {Intro,Installation, Avatar,Alert, Badge, Button, Image, Input,Card,List,Toast,NavDoc,Modal,Rating,TxtUtility} from "../doc/import"
 import { Route, Routes } from 'react-router-dom';
-import { useData } from '../context/context';
+// import { useData } from '../context/context';
 
 const Doc = () => {
-
-    const {index}=useData();
   return (
     <>
         <div className="doc-container" >
@@ -33,24 +31,7 @@ const Doc = () => {
                 <Route path='sample' element={<Sample/>}></Route>
                 </Routes>
             </div>
-            {console.log(index)}
-            {index.length>1?(<div className="doc-right-sidenav">
-                <ul className="doc-right-sidenav-list">
-                    {
-                        index.map(i=>{
-                            return(
-                                <li className="doc-right-sidenav-list-item">
-                                    <a href={`#${i}`} className="bui-link-nostyle">{i}</a>
-                                </li>
-                                
-                            )
-                        })
-                    }
-                    
-                    
-                </ul>
-                
-            </div>):""}
+            
         </div>
     </>
   )

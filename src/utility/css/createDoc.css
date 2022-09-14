@@ -1,5 +1,7 @@
 .create-doc-container{
     padding: .5rem 0px 0px 1rem;
+    display: flex;
+    /* overflow-x: hidden; */
 }
 .doc-user-try-head{
     margin-top: 40px;
@@ -40,6 +42,27 @@
     background: green;
     color: white;
 }
+.create-doc-container-side-nav{
+    min-width: 200px;
+    width: 250px;
+    height: fit-content;
+    margin-left: auto;
+    font-size: 1rem;
+    padding-left: 1rem;
+    overflow-y: scroll;
+    background-color: #d3bdfb;
+    position: sticky;
+    top: 0px;
+}
+.create-doc-container-side-nav::-webkit-scrollbar{
+    width: 5px;
+    border-radius: .2rem;                 
+}
+.create-doc-container-side-nav::-webkit-scrollbar-thumb{
+    border-radius: .2rem;
+    background-color: blue;
+    width: 5px;
+} 
 
 @media (max-width:750px) {
     .create-doc-container{
@@ -60,4 +83,10 @@
         margin-top: 1rem;
         overflow: scroll;
     }
+}
+@media (max-width:800px) {
+    .create-doc-container-side-nav{
+        display: none;
+    }
+    
 }

@@ -5,13 +5,13 @@ const TxtUtility = () => {
   return (
     <>
     
-    <div className="bui-box-center" style={{padding:"1rem"}}>
+    <div className="bui-box-center" style={{padding:".5rem"}}>
   <div className="bui-head2 bui-pad-1 " style={{backgroundColor:'violet',padding:"5rem 2rem",borderRadius:".5rem"}}> Text utility </div>
   <div className="bui-head4 bui-pad-0-5">type of font size :</div>
   <ul style={{backgroundColor:"blueviolet",color:"white",paddingTop:"2rem",paddingBottom:"2rem"}} className="bui-list-sqr">
     <li className="bui-head1">Type one</li>
     <li className="bui-head2">Type two</li>
-    <li className="bui-head3">Type three</li>
+    <li className="bui-head3">Type three</li>  
     <li className="bui-head4">Type four</li>
   </ul>
   <div className="bui-p2 bui-pad-1"><span className=" bui-head1 bui-inline">hello world</span>this is the biggest font size for headings, to use

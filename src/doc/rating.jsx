@@ -2,13 +2,16 @@ import React,{useState} from 'react'
 // import Datasender from './datasender.tsx'
 import {CreateDoc} from '../utility/import'
 import {AiFillStar} from "react-icons/ai"
+// import { useData } from '../context/context'
 
 const Rating = () =>{
+    // const {setIndex}=useData();
+    // setIndex(prev=>prev=["rating","code","modal"])
     // const [click, setClick] = useState(initialState);
     const [val, setVal] = useState(0);
 //   Datasender({
     
-//   })
+//   }) 
     
 // })
 const data={

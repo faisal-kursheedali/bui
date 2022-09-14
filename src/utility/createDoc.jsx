@@ -1,19 +1,23 @@
-import React, {useEffect,useState} from 'react'
+import React, {
+  // useEffect,
+  useState} from 'react'
 import "./css/createDoc.css"
 import { TxtInDoc } from './import';
-import { useData } from "../context/context";
+// import { useData } from "../context/context";
 
 
 const CreateDoc = ({ data }) => {
-  const { index,setIndex } = useData([]);
+  // const { setIndex } = useData();
   const[userInput,setUserInput]=useState("");
-  useEffect(() => {
-    setIndex(prev => prev = data.topics);
-    if (index.length>1) {
-      
-      setIndex(prev=>prev=[...prev,"practice"]);
-    }
-  }, [setIndex]);
+  console.log(data.topics);
+  // const topic=data.topics
+  
+//  if (data.topics.length>0) {
+  
+  //  setIndex(prev => prev = data.topics);
+   
+  // }
+
   const output=document.querySelector("#user-try-output");
   // const userOutPutFnc=(input)=>{
   //   const userCode=eval(input)
@@ -26,8 +30,10 @@ const CreateDoc = ({ data }) => {
   // }
   return (
     <>
-      <div className="create-doc-container">
-        {
+     {/* <div className="doc-container"> */}
+     <div className="create-doc-container">
+     <div className="content">
+     {
           data.content.map((item, index) => {
             return <TxtInDoc data={item} key={index} />
           })
@@ -56,11 +62,36 @@ const CreateDoc = ({ data }) => {
   
         </div>):("")
       }
-      
+     </div>
+     <div className="create-doc-container-side-nav">
+     {data.topics.length>1?(
+      // <div className="doc-right-sidenav">
+                <ul className="doc-right-sidenav-list">
+                    {
+                        data.topics.map(i=>{
+                            return(
+                                <li className="doc-right-sidenav-list-item">
+                                    <a href={`#${i}`} className="bui-link-nostyle">{i}</a>
+                                </li>
+                                
+                            )
+                        })
+                    }
+                    
+                    
+                </ul>
+                
+            // </div>
+            ):""}
+     </div>
 
         
       
       </div>
+      
+      
+      {/* </div> */}
+     {/* </div> */}
     </>
   )
 }
