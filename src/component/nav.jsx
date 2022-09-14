@@ -24,13 +24,13 @@ const Nav = () => {
                 <li className="nav-list-item ">
                     <Link to={"/doc/intro"} className="nav-link">Doc</Link>
                 </li>
-                <li className="nav-list-item nav-list-item-threedot ">
+                {/* <li className="nav-list-item nav-list-item-threedot ">
                     <div className="nav-right">
                         <div className="nav-threedot">
                             <BsThreeDotsVertical />
                         </div>
                     </div>
-                </li>
+                </li> */}
             </ul>
 
         </nav>

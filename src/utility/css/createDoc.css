@@ -84,7 +84,10 @@
         overflow: scroll;
     }
 }
-@media (max-width:800px) {
+@media (max-width:930px) {
+    .create-doc-container{
+        display: block;
+    }
     .create-doc-container-side-nav{
         display: none;
     }
