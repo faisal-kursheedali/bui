@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React from 'react'
 import "./css/codeInDoc.css"
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import {lightfair} from 'react-syntax-highlighter/dist/esm/styles/hljs';

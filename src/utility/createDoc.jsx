@@ -5,23 +5,26 @@ import { useData } from "../context/context";
 
 
 const CreateDoc = ({ data }) => {
-  const { setIndex } = useData();
+  const { index,setIndex } = useData();
   const[userInput,setUserInput]=useState("");
   useEffect(() => {
-    setIndex(prev => prev = data.topics);
-    setIndex(prev=>prev=[...prev,"practice"]);
-  }, []);
+    if (index.length>0) {
+      
+      setIndex(prev => prev = data.topics);
+      setIndex(prev=>prev=[...prev,"practice"]);
+    }
+  }, [setIndex]);
   const output=document.querySelector("#user-try-output");
   console.log(data);
-  const userOutPutFnc=(input)=>{
-    const userCode=eval(input)
-    console.log(userCode);
-    return(
-      {
-        userCode
-      }
-    )
-  }
+  // const userOutPutFnc=(input)=>{
+  //   const userCode=eval(input)
+  //   console.log(userCode);
+  //   return(
+  //     {
+  //       userCode
+  //     }
+  //   )
+  // }
   return (
     <>
       <div className="create-doc-container">
