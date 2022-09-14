@@ -1,0 +1,81 @@
+.doc-segment-h1{
+    font-size: 2.5rem;
+    font-weight:800;
+    margin: 10px 0px;
+}
+.doc-segment-h2,.doc-segment-codeH1{
+    font-size: 2rem;
+    font-weight:700;
+    margin-top: 40px;
+    margin-bottom: 4px;
+}
+.doc-segment-h3,.doc-segment-codeH2,.doc-segment-impPoint-container,.doc-segment-modal-head{
+    font-size: 1.5rem;
+    font-weight:600;
+    margin-top: 8px;
+    margin-top: 40px;
+    margin-bottom: 4px;
+}
+.doc-segment-smallH1{
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+.doc-segment-smallH2{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+.doc-segment-p1,.doc-segment-codeP1{
+    font-size: 1.150rem;
+    margin-bottom: 6px;
+}
+.doc-segment-p2,.doc-segment-codeP2{
+    font-size: 1.125rem;
+    margin-bottom: 6px;
+}
+.doc-segment-p3{
+    font-size: 1.1rem;
+    margin-bottom: 6px;
+}
+.doc-segment-smallP1,.doc-segment-codeSmall1{
+    font-size: 16px;
+    margin-bottom: 6px;
+    margin-top: 6px;
+}
+.doc-segment-smallP2,.doc-segment-codeSmall2{
+    font-size: 14px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.doc-segment-codeTxt{
+    
+    width: 50%;
+    max-width: 600px;
+    min-width: 250px;
+    max-height: 300px;
+}
+.doc-segment-impPoint-list{
+    list-style: none;
+    padding-left: 0px;
+    font-size: 1.1rem;
+    font-weight: initial;
+    padding-left: 1rem;
+}
+
+.doc-segment-impPoint-list-item-bullet{
+    color:#D4AF37;
+    color:#FFDD43;
+    color:#DC9202;
+    color:#DC9202;
+    margin-right: 8px;
+}
+.doc-segment-modal{
+    /* width: 50%; */
+    padding: 1rem;
+    background-color:lightcyan;
+}
