@@ -2,7 +2,7 @@ import React from 'react'
 
 import "./css/home.css"
 import { useNavigate } from 'react-router-dom'
-import {Installation, Intro} from '../doc/import'
+import {Installation, Intro, TxtUtility} from '../doc/import'
 
 const Home = () => {
   const navigate=useNavigate()
@@ -31,6 +31,7 @@ const Home = () => {
     <div className="home-sub-container">
       <Intro/>
       <Installation/>
+      <TxtUtility/>
     </div>
     
     </>

@@ -1,117 +1,63 @@
 import React from 'react'
-import { CreateDoc } from '../utility/import'
+// import Datasender from './datasender.tsx'
+import {CreateDoc} from '../utility/import'
+import {AiOutlineInfoCircle,AiOutlineClose} from "react-icons/ai"
 
-const Avatar = () => {
-  const data = {
-    topics: ["avatar", "about", "algorithum"],
-    content: [
-      {
+const Avatar = () =>{
+//   Datasender({
+    
+//   })
+    
+// })
+const data={
+  topics:["avatar","note","code","modal","summary"],
+  userTry:true,
+  content:[
+    {
+      h1:"Avatar",
+      smallH1:"About :",
+      p1:"Responsive avatar built with BUI CSS. Plenty of templates like a circle avatar, square, profile and many more.",
+      hId:"avatar"
+    },{
+      h3:"note :",
+      p2:`The avatar can have different shape and sizes so they are specified with the help of class names in img tag,
+      and avatar-rnd/sqr for shapes and avatar-xsm/sm/md/lg/xl for sizes.
+      For texted avatar the element is given with avatar-txt along with class name for required size.
+      `,
+      hId:"note"
+    },{
+      codeH2:"code :",
+      codeP2:`In this I had used React, so I used the syntax of react. If you use only HTML and CSS then use class insterd of className.`,
+      codeTxt:`<img src="https://pacific-store.netlify.app/img/daydeal/vcollor2.jpg" alt="" className="bui-avatar-rnd avatar-xsm" /> 
 
-        h1: "Avatar",
-        // h2:"welcome to Avatar",
-        // h3:"welcome to Avatar",
-        smallH1: "welcome to Avatar",
-        // smallH2:"welcome to Avatar",
-        // p1:"hii how are you guys",
-        p2: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, facere! Cumque porro saepe alias qui totam enim placeat minima exercitationem amet, nam molestias deleniti quibusdam. Labore accusantium aut distinctio non!",
-        // p3:"hii how are you guys",
-        // codeH1:"hii how are you guys",
-        codeH2: "hii how are you guys",
-        codeP1: "hii how are you guys",
-        codeP2: "hii how are you guys",
-        codeTxt: `<CreateDoc data={data} />`,
-        codeSmall1: "hii how are you guys",
-        codeSmall2: "hii how are you guys",
-        // smallP1:"This how it end",
-        smallP2: "This how it end like some one is here in the bathroom",
-        impPointHead: "Summary",
-        impPoint: [`psum dolor sit amet consectetur adipisicing elit. Soluta perspiciatis mod sequi libero possimus doloribus! Minima aspernatur, cupiditate soluta nulla, impedit consequuntur reprehenderit et deserunt 
-        psum dolor sit amet consectetur adipisicing elit. Soluta perspiciatis mod sequi libero possimus doloribus! Minima aspernatur, cupiditate soluta nulla, impedit consequuntur reprehenderit et deserunt 
-        psum dolor sit amet consectetur adipisicing elit. Soluta perspiciatis mod sequi libero possimus doloribus! Minima aspernatur, cupiditate soluta nulla, impedit consequuntur reprehenderit et deserunt 
-        psum dolor sit amet consectetur adipisicing elit. Soluta perspiciatis mod sequi libero possimus doloribus! Minima aspernatur, cupiditate soluta nulla, impedit consequuntur reprehenderit et deserunt 
-        psum dolor sit amet consectetur adipisicing elit. Soluta perspiciati`, `hello`],
-        hId: "avatar",
-        modal: () => {
-          return (
-            <>
-              <div className="bui-btn">
-              hello
-            </div>
-              <div className="bui-btn-fancy">
-              hello
-            </div>
-              
-           
-            </>
-          )
-        },
-        code: `<div className="bui-btn">
-        hello
-      </div>Lorem, ipsum dolor sit amet consectetur 
-      adipisicing elit. Corrupti soluta officiis temporibus assumenda optio blanditii
-      s cum a! Nam eum magnam earum atque esse? Pariatur, 
-      optio accusantium odit mollitia voluptates architecto!`,
+      <div className="bui-avatar-txt avatar-xsm">hello</div>
+      `,
+      hId:"code"
+    },{
+      hId:"modal",
+      modal:()=>{
+        return(<><img src="https://pacific-store.netlify.app/img/daydeal/vcollor2.jpg" alt="" className="bui-avatar-rnd avatar-xsm" /> 
+
+        <div className="bui-avatar-txt avatar-xsm">hello</div>
+        </>
+)
       },
-      {
+      code:`<img src="https://pacific-store.netlify.app/img/daydeal/vcollor2.jpg" alt="" className="bui-avatar-rnd avatar-xsm" /> 
 
-        // h1: "Avatar",
-        h2:" ",
-        // h3:"welcome to Avatar",
-        // smallH1: "welcome to Avatar",
-        // smallH2:"welcome to Avatar",
-        // p1:"hii how are you guys",
-        p2: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, facere! Cumque porro saepe alias qui totam enim placeat minima exercitationem amet, nam molestias deleniti quibusdam. Labore accusantium aut distinctio non!",
-        // p3:"hii how are you guys",
-        // codeH1:"hii how are you guys",
-        codeH2: "hii how are you guys",
-        codeP1: "hii how are you guys",
-        codeP2: "hii how are you guys",
-        codeTxt: `<CreateDoc data={data} />`,
-        codeSmall1: "hii how are you guys",
-        codeSmall2: "hii how are you guys",
-        // smallP1:"This how it end",
-        smallP2: "This how it end like some one is here in the bathroom",
-        impPointHead: "Summary",
-        impPoint: [`psum dolor sit amet consectetur adipisicing elit. Soluta perspiciatis mod sequi libero possimus doloribus! Minima aspernatur, cupiditate soluta nulla, impedit consequuntur reprehenderit et deserunt 
-        psum dolor sit amet consectetur adipisicing elit. Soluta perspiciatis mod sequi libero possimus doloribus! Minima aspernatur, cupiditate soluta nulla, impedit consequuntur reprehenderit et deserunt 
-        psum dolor sit amet consectetur adipisicing elit. Soluta perspiciatis mod sequi libero possimus doloribus! Minima aspernatur, cupiditate soluta nulla, impedit consequuntur reprehenderit et deserunt 
-        psum dolor sit amet consectetur adipisicing elit. Soluta perspiciatis mod sequi libero possimus doloribus! Minima aspernatur, cupiditate soluta nulla, impedit consequuntur reprehenderit et deserunt 
-        psum dolor sit amet consectetur adipisicing elit. Soluta perspiciati`, `hello`],
-        hId: "about",
-        modal: () => {
-          return (
-            <>
-              <div className="bui-btn">
-              hello
-            </div>
-              <div className="bui-btn-fancy">
-              hello
-            </div>
-              
-           
-            </>
-          )
-        },
-        code: `<div className="bui-btn">
-        hello
-      </div>Lorem, ipsum dolor sit amet consectetur 
-      adipisicing elit. Corrupti soluta officiis temporibus assumenda optio blanditii
-      s cum a! Nam eum magnam earum atque esse? Pariatur, 
-      optio accusantium odit mollitia voluptates architecto!`,
-      }
-
-
-    ],
-    userTry:true,
-  }
-  return (
-    <>
-      {
-        <CreateDoc data={data} />
-      }
-
-    </>
-  )
+      <div className="bui-avatar-txt avatar-xsm">hello</div>
+      `
+    },{
+      hId:"summary",
+      impPointHead:"summary :",
+      impPoint:["ALWAYS USE 'bui-' IN PRIFIX IN CLASS NAME",`the avatar can have different shape and sizes so they are specified with the help of class names in img tag`,`avatar-rnd/sqr for shapes`,`avatar-xsm/sm/md/lg/xl for sizes`,`for texted avatar the element is given with avatar-txt along with class name for required size`]
+    },
+  ],
+}
+return (
+  <>
+<CreateDoc data={data}/>
+  </>
+)
 }
 
 export default Avatar

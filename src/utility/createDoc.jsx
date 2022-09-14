@@ -8,7 +8,8 @@ const CreateDoc = ({ data }) => {
   const { setIndex } = useData();
   const[userInput,setUserInput]=useState("");
   useEffect(() => {
-    setIndex(prev => prev = data.topics)
+    setIndex(prev => prev = data.topics);
+    setIndex(prev=>prev=[...prev,"practice"]);
   }, []);
   const output=document.querySelector("#user-try-output");
   console.log(data);
@@ -30,7 +31,7 @@ const CreateDoc = ({ data }) => {
           })
         }
       {
-        data.userTry?(<div className="doc-user-try-container">
+        data.userTry?(<div className="doc-user-try-container" id='practice'>
         <div className="doc-user-try-head">
           Let's try some thing :
         </div>

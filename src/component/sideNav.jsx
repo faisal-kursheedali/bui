@@ -5,7 +5,7 @@ import {Link} from "react-router-dom"
 import { useData } from '../context/context'
 
 const SideNav = () => {
-    const components=["sample"]
+    const components=["avatar","alert","badge","button","image","input","card","list","toast","navigation","modal","rating","utility"]
     const {setSideNav}=useData();
     return (
         <div className="bui-sidenav doc-sidenav" >
