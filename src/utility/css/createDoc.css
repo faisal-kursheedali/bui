@@ -85,6 +85,9 @@
     }
 }
 @media (max-width:800px) {
+    .create-doc-container{
+    display:block;
+    }
     .create-doc-container-side-nav{
         display: none;
     }
