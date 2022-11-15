@@ -5,7 +5,7 @@
 
 
 <h3>BUI</h3> 
-<div>BUI stands for Build UI.BUI is a fully functioning web application. It is a CSS Component Library web application that is built using HTML, CSS, JavaScript, React and React-router. It has all the basic features of a CSS Component Library application.</div>
+<div>BUI stands for Build UI. BUI is a fully functioning web application. It is a CSS Component Library web application that is built using HTML, CSS, JavaScript, React and React-router. It has all the basic features of a CSS Component Library application.</div>
 
 <h4>Pages</h4>
 <ul>
@@ -27,6 +27,11 @@
 <li>Modal</li>
 <li>Rating</li>
 <li>Utility</li>
+</ul>
+
+<h4>Features</h4>
+<ul>
+  <li>User can try Components on BUI</li>
 </ul>
 
 <h3>Demo</h3> 
