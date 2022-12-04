@@ -1,4 +1,4 @@
-## 🎨 Interior
+## 🎨 BUI
 
 ![bui-logo](https://user-images.githubusercontent.com/85350108/201929181-9d064e8d-a4b0-4687-b6ea-eb9a9526c0e6.png)
 <br/><br/>
